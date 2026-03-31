@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic</title>
+</head>
+<style>
+body{
+    margin: 0;
+}
+
+header, footer{
+    text-align: center;
+    clear: both;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    
+    justify-content: center;
+    background:linear-gradient(330deg, #0F3D3E,#0F3D3E,#C46A4B ) ;
+}
+main{
+    height: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+nav{
+     text-align: center;
+    padding: 10px;  
+    background-color: #C46A4B;
+}
+
+#nav ul{ 
+    list-style-type: none;
+    overflow: hidden;
+    background-color:  #0F3D3E ;
+  
+}
+
+#nav li a {
+
+    float: left;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #0F3D3E;
+    background-color:#C46A4B ;
+    margin: 5px;
+
+  
+}
+
+ul li a:hover{
+    font-size: 20px;
+}
+
+aside{
+    float: left;
+    width: 33.3%;
+  
+}
+section{
+   
+    width: 33.3%;
+    float: left;
+   
+}
+
+article{
+    width: 33.3%;
+    float: right;
+   
+
+}
+p{
+    text-align: justify;
+    margin: 20px;
+}
+@media screen and (max-width:800px) 
+{ aside, section, article
+    {width: 100%;
+    float: none;}
+}
+</style>
+<body>
+    <header> <h1>This is a header</h1></header>
+    <nav id="nav">
+<ul>
+    <li><a href="home">home</a></li>
+    <li><a href="news">news</a></li>
+    <li><a href="contact">contact</a></li>
+    <li><a href="about us">about us</a></li>
+
+</ul>
+
+    </nav>
+    <main>
+    <aside>
+        <p> THIS IS ASIDE Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Delectus ad earum neque facere modi eaque minus tempore quaerat voluptates autem cum,
+          iusto, ipsam iste saepe unde, velit consequatur! Impedit, rerum.</p></aside>
+    <section> <p>THIS IS SECTION Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quibusdam voluptatum, animi quo porro minus cum facere quod, tempore voluptas fuga, 
+        suscipit ipsam eveniet saepe officiis quae quisquam! Ut, non nemo!</p></section>
+    <article> <p> IS ARTICLE Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Similique iusto deleniti quo nulla optio iure, repellendus aliquid eveniet, 
+         hic harum reprehenderit ab culpa atque cum, soluta ullam pariatur voluptatem velit?</p></article>
+         </main>
+    <footer> THiS IS FOOTER</footer>
+</body>
+</html>
