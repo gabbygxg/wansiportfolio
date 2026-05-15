@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main{  
+        height: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    }
+
+#LN{
+    display: flex;
+    text-align: center;
+    padding: 0px;  
+    background-color: #2a2928;
+}
+#LN ul{
+    display: inline-end;
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+
+}
+
+#LN li a{
+    float: right;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color:aliceblue;
+    background-color: #282727df;
+    margin: 5px;
+
+
+}
+#box1{
+    float: left;
+    width: 33.3%;
+}
+#box2{ 
+width: 33.3%;
+    float: left;
+}
+#box3{
+width: 33.3%;
+    float: right;
+}
+footer{
+    text-align: center;
+    clear: both;
+    display: flex;
+    height: 100px;
+    align-items: center;}
+    
+    justify-content: center;
+ul li a:hover{
+    font-size: 20px;}
+
+@media screen and (max-width:698px) 
+{ aside, section, article
+    {width: 100%;
+    float: none;}}
+
+</style>
+<body>
+    <div id="main">
+        <div id="LN">
+            <ul>
+                <h2>logo</h2>
+                <li><a href="home">home</a></li>
+                <li><a href="news">news</a></li>
+                <li><a href="contact">contact</a></li>
+                <li><a href="about us">about us</a></li>
+
+            </ul>
+        </div>
+        <!--break-->
+        <div id="header">
+            <h2>header</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat possimus at earum dolores neque aut delectus, laboriosam veniam quaerat, nulla corporis assumenda harum rem mollitia eum, eos totam ipsa incidunt!</p>
+        </div>
+        <!--break-->
+        <div id="intro">
+            <h2>intro</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sunt, blanditiis facere dolore quis repudiandae molestias iste quas, ab eligendi debitis pariatur aliquam est molestiae doloribus quia eos repellat dicta.</p>
+        </div>
+        <!--break-->
+        <div id="box1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt omnis, eligendi error eveniet culpa ratione optio ipsa sed ab mollitia molestias quasi doloremque debitis commodi! Necessitatibus inventore eveniet perferendis eaque.</p>
+        </div>
+        <div id="box2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nam, excepturi molestiae placeat quas hic mollitia laborum esse tempora, officia nemo repellendus, quasi iste illum ad atque illo vitae officiis?</p>
+        </div>
+        <div id="box3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quisquam, temporibus distinctio dolorum at omnis molestias vero? Esse harum unde pariatur atque consectetur, laudantium adipisci accusantium tempore, possimus id fugiat?</p>
+        </div>
+    </div>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
